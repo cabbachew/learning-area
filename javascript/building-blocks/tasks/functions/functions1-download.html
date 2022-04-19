@@ -30,7 +30,10 @@
     const para = document.createElement('p');
 
     // Add your code here
-
+    function randomName() {
+      para.innerText = names[Math.floor(Math.random() * names.length)];
+    }
+    randomName();
     // Don't edit the code below here!
 
     const section = document.querySelector('section');
